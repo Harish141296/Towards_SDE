@@ -1,0 +1,7 @@
+pytesseract
+opencv-python
+pillow
+rapidfuzz
+requests
+fastapi
+uvicorn

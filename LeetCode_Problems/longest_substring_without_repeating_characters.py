@@ -20,11 +20,11 @@ class Solution:
 
         for r in range(n):
             while self.s[r] in sett:
-                sett.remove(s[l])
+                sett.remove(self.s[l])
                 l += 1
             w = (r - l) + 1 
             longest = max(longest, w)
-            sett.add(s[r])
+            sett.add(self.s[r])
         return longest 
 
 if __name__ == '__main__':
